@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int pages[]={};
+    int pages[]={7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1, 2, 0, 1, 7, 0, 1};
     int n = sizeof(pages)/sizeof(pages[0]);
     int pageFault=0;
     int frameSize=3;
