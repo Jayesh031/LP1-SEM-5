@@ -1,0 +1,7 @@
+public Class MyFunctions
+    public Function AddMyValues(byVal Value1 As Double,byVal Value2 As Double)
+        Dim Result As Double
+        Result = Value1+Value2
+        Return Result
+    End function
+End Class

@@ -1,0 +1,8 @@
+Imports ClassLibrary
+
+public Class Form1
+    private Sub Button1_Click(byVal sender As System.Object,byVal e As System.EventArgs) Handles Button1.Click
+        Dim Obj As New ClassLibrary.MyFunctions
+        TextBox3.Text = Obj.AddMyValues(CDbl(TextBox1.Text).CDbl(TextBox2.Text)).ToString()
+    End Sub
+End Class
