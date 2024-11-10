@@ -23,10 +23,10 @@ int main()
         }
 
 
-        if(!pageFault)
+        if(!pageFound)
         {
             int index=0;
-            for(int j=0;j<frameSize;j++)
+            for(int j=1;j<frameSize;j++)
             {
                 if(frames[j]==-1 || frames[j]==pages[i])
                 {
